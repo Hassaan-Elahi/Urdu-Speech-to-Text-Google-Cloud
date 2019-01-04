@@ -9,6 +9,7 @@ from google.cloud import texttospeech
 # Instantiates a client
 client = texttospeech.TextToSpeechClient()
 
+#To Do
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credT2S.json"
 
 # Set the text input to be synthesized

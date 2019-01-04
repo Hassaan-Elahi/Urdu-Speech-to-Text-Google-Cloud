@@ -38,12 +38,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1288" />
+          <entry key="py" value="1297" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1288" />
+          <entry key="Python" value="1297" />
         </counts>
       </usages-collector>
     </session>
@@ -53,11 +53,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleCloudSpeech.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
-                <marker date="1546628725572" expanded="true" signature="842:1505" ph="..." />
-                <marker date="1546628725572" expanded="true" signature="1536:1537" ph="..." />
+                <marker date="1546629044683" expanded="true" signature="839:1502" ph="..." />
+                <marker date="1546629044683" expanded="true" signature="1533:1534" ph="..." />
               </folding>
             </state>
           </provider>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TextToSpeech.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="110">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
                 <element signature="e#155#164#0" expanded="true" />
               </folding>
@@ -104,8 +104,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TextToSpeech.py" />
         <option value="$PROJECT_DIR$/GoogleCloudSpeech.py" />
+        <option value="$PROJECT_DIR$/TextToSpeech.py" />
       </list>
     </option>
   </component>
@@ -209,12 +209,12 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Python Console" weight="0.3291815" />
       <window_info anchor="bottom" id="Terminal" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39679715" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.104982205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30427048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,19 +326,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoogleCloudSpeech.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
-            <marker date="1546628725572" expanded="true" signature="842:1505" ph="..." />
-            <marker date="1546628725572" expanded="true" signature="1536:1537" ph="..." />
+            <marker date="1546629044683" expanded="true" signature="839:1502" ph="..." />
+            <marker date="1546629044683" expanded="true" signature="1533:1534" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TextToSpeech.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="110">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <element signature="e#155#164#0" expanded="true" />
           </folding>
