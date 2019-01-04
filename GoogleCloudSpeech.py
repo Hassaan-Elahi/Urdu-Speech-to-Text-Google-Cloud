@@ -21,7 +21,7 @@ def Speech2Text(file):
     
     if(platform.system() != 'Windows'):
         current_dir = os.getcwd()
-        file_name = current_dir + "DataSet/wav/" +file
+        file_name = current_dir + "/DataSet/wav/" +file
     else:
         current_dir = "C:\\Users\\Hassan Elahi\\Desktop\\Urdu-Speech-to-Text-Google-Cloud\\"
         file_name = current_dir + "DataSet\\wav\\" + file
@@ -63,10 +63,8 @@ if __name__ == '__main__':
     else:
         
         for file in glob.glob('DataSet\\wav\\*.wav'):
-            c = c + 1
             Speech2Text(file.split("\\")[-1])
-            if(c==5):
-                break
+            
 
     with io.open('wav2Urdu.txt', 'w',encoding='utf-8') as f:
         for item in arr:
