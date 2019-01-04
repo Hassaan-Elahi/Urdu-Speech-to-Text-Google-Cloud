@@ -3,6 +3,7 @@ import os
 import platform
 import glob
 import codecs
+import pickle
 
 # Imports the Google Cloud client library
 from google.cloud import speech
@@ -65,7 +66,10 @@ if __name__ == '__main__':
         for file in glob.glob('DataSet\\wav\\*.wav'):
             Speech2Text(file.split("\\")[-1])
             
-
+    
+    with open('wav2Urdu.pkl', 'wb') as f:
+        pickle.dump(arr, f)
+        
     with io.open('wav2Urdu.txt', 'w',encoding='utf-8') as f:
         for item in arr:
             f.write("{}\n".format(item))

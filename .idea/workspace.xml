@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8234985-0e9d-4fa2-a3e2-8eff9012c3b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TextToSpeech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoogleCloudSpeech.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleCloudSpeech.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,22 +25,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1234" />
+          <entry key="py" value="1280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1234" />
+          <entry key="Python" value="1280" />
         </counts>
       </usages-collector>
     </session>
@@ -48,15 +52,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoogleCloudSpeech.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="123">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1546626622128" expanded="true" signature="824:1487" ph="..." />
-                <marker date="1546626622128" expanded="true" signature="1518:1519" ph="..." />
+                <marker date="1546628195494" expanded="true" signature="838:1501" ph="..." />
+                <marker date="1546628195494" expanded="true" signature="1532:1533" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TextToSpeech.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="e#155#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wav2Urdu.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -70,12 +91,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Data</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/TextToSpeech.py" />
         <option value="$PROJECT_DIR$/GoogleCloudSpeech.py" />
       </list>
     </option>
@@ -101,17 +135,6 @@
             <path>
               <item name="Urdu-Speech-to-Text-Google-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="Urdu-Speech-to-Text-Google-Cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Urdu-Speech-to-Text-Google-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Urdu-Speech-to-Text-Google-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Urdu-Speech-to-Text-Google-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Urdu-Speech-to-Text-Google-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
-              <item name="wav" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,11 +215,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33096084" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.430605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3985765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30427048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,7 +242,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/GoogleCloudSpeech.py</url>
-          <line>64</line>
+          <line>65</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -296,14 +319,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wav2Urdu.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextToSpeech.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#155#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoogleCloudSpeech.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="123">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1546626622128" expanded="true" signature="824:1487" ph="..." />
-            <marker date="1546626622128" expanded="true" signature="1518:1519" ph="..." />
+            <marker date="1546628195494" expanded="true" signature="838:1501" ph="..." />
+            <marker date="1546628195494" expanded="true" signature="1532:1533" ph="..." />
           </folding>
         </state>
       </provider>
