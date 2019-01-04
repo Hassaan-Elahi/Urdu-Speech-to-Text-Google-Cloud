@@ -1,3 +1,4 @@
+'''
 import io
 import os
 import platform
@@ -74,4 +75,4 @@ if __name__ == '__main__':
         for item in arr:
             f.write("{}\n".format(item))
 
-    
+'''

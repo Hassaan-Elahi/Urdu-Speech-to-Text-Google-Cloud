@@ -9,7 +9,7 @@ from google.cloud import texttospeech
 # Instantiates a client
 client = texttospeech.TextToSpeechClient()
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "cred.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credT2S.json"
 
 # Set the text input to be synthesized
 synthesis_input = texttospeech.types.SynthesisInput(text="میں نے کچھ حصہ الگ بجٹ پر بھی رکھا ہے")
