@@ -1,6 +1,7 @@
 import io
 import os
 import platform
+import glob
 import codecs
 
 # Imports the Google Cloud client library
@@ -10,7 +11,7 @@ from google.cloud.speech import types
 
 # -------------------------------------------------------------------------------
 #For Local Repo
-current_dir = "C:\\Users\\Hassan Elahi\\Desktop\\Urdu-Speech-to-Text-Google-Cloud\\DataSet\\wav\\"
+current_dir = "C:\\Users\\Hassan Elahi\\Desktop\\Urdu-Speech-to-Text-Google-Cloud\\"
 arr = list([])
 #--------------------------------------------------------------------------------
 
@@ -18,11 +19,13 @@ arr = list([])
 
 def Speech2Text(file):
     
-    
     if(platform.system() != 'Windows'):
         current_dir = os.getcwd()
-    
-    file_name = current_dir + file
+        file_name = current_dir + "DataSet/wav/" +file
+    else:
+        current_dir = "C:\\Users\\Hassan Elahi\\Desktop\\Urdu-Speech-to-Text-Google-Cloud\\"
+        file_name = current_dir + "DataSet\\wav\\" + file
+        
     print(file_name)
     
     # Loads the audio into memory
@@ -48,9 +51,22 @@ def Speech2Text(file):
 if __name__ == '__main__':
     
     #Setting Envionment vaiable for Google Credentials
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "E:/cred.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "cred.json"
     client = speech.SpeechClient()
-    Speech2Text("hin_0001.wav")
+    
+    c = 0
+    if (platform.system() != 'Windows'):
+        for file in glob.glob('DataSet/wav/*.wav'):
+            Speech2Text(file.split('/')[-1])
+            
+    
+    else:
+        
+        for file in glob.glob('DataSet\\wav\\*.wav'):
+            c = c + 1
+            Speech2Text(file.split("\\")[-1])
+            if(c==5):
+                break
 
     with io.open('wav2Urdu.txt', 'w',encoding='utf-8') as f:
         for item in arr:
