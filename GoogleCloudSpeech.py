@@ -45,8 +45,9 @@ if __name__ == '__main__':
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "E:/cred.json"
     client = speech.SpeechClient()
     Speech2Text("hin_0001.wav")
-    Speech2Text("hin_0002.wav")
 
-    with codecs.open(current_dir+'wav2Urdu.txt', 'w',encoding='utf-8') as f:
+    with io.open('wav2Urdu.txt', 'w',encoding='utf-8') as f:
         for item in arr:
             f.write("{}\n".format(item))
+
+    
