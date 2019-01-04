@@ -1,5 +1,6 @@
 import io
 import os
+import platform
 import codecs
 
 # Imports the Google Cloud client library
@@ -8,6 +9,7 @@ from google.cloud.speech import enums
 from google.cloud.speech import types
 
 # -------------------------------------------------------------------------------
+#For Local Repo
 current_dir = "C:\\Users\\Hassan Elahi\\Desktop\\Urdu-Speech-to-Text-Google-Cloud\\DataSet\\wav\\"
 arr = list([])
 #--------------------------------------------------------------------------------
@@ -17,7 +19,11 @@ arr = list([])
 def Speech2Text(file):
     
     
+    if(platform.system() != 'Windows'):
+        current_dir = os.getcwd()
+    
     file_name = current_dir + file
+    print(file_name)
     
     # Loads the audio into memory
     with io.open(file_name, 'rb') as audio_file:
