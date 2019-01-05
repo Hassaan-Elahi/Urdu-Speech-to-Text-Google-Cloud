@@ -1,4 +1,3 @@
-
 import io
 import os
 import platform
@@ -23,12 +22,11 @@ def Speech2Text(file):
     
     if(platform.system() != 'Windows'):
         current_dir = os.getcwd()
-        file_name = current_dir + "/DataSet/wav/" +file
+        file_name = current_dir + "/Urdu-Styles_DataSet/Sad/" +file
     else:
         current_dir = "C:\\Users\\Hassan Elahi\\Desktop\\Urdu-Speech-to-Text-Google-Cloud\\"
-        file_name = current_dir + "DataSet\\wav\\" + file
+        file_name = current_dir + "Urdu-Styles_DataSet\\Sad\\" + file
         
-    print(file_name)
     
     # Loads the audio into memory
     with io.open(file_name, 'rb') as audio_file:
@@ -37,7 +35,7 @@ def Speech2Text(file):
     
     config = types.RecognitionConfig(
         encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=16000,
+        sample_rate_hertz=44100,
         language_code='ur-PK')
     
     # Detects speech in the audio file
@@ -53,25 +51,25 @@ def Speech2Text(file):
 if __name__ == '__main__':
     
     #Setting Envionment vaiable for Google Credentials
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "cred.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "E:\\cred.json"
     client = speech.SpeechClient()
     
-    c = 0
+
     if (platform.system() != 'Windows'):
-        for file in glob.glob('DataSet/wav/*.wav'):
+        
+        for file in glob.glob('Urdu-Styles_DataSet/Sad/*.wav'):
+            
             Speech2Text(file.split('/')[-1])
             
     
     else:
-        
-        for file in glob.glob('DataSet\\wav\\*.wav'):
+        c = 0
+        for file in glob.glob('Urdu-Styles_DataSet\\Sad\\*.wav'):
+            c = c + 1
             Speech2Text(file.split("\\")[-1])
-            
+            print("Count: {}".format(c))
     
-    with open('wav2Urdu.pkl', 'wb') as f:
-        pickle.dump(arr, f)
-        
-    with io.open('wav2Urdu.txt', 'w',encoding='utf-8') as f:
+    with io.open('Sadwav2Urdu.txt', 'w',encoding='utf-8') as f:
         for item in arr:
             f.write("{}\n".format(item))
 

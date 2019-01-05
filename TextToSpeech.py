@@ -2,7 +2,7 @@
 
 Note: ssml must be well-formed according to:
     https://www.w3.org/TR/speech-synthesis/
-"""
+
 import os
 from google.cloud import texttospeech
 
@@ -37,3 +37,5 @@ with open('output.mp3', 'wb') as out:
     # Write the response to the output file.
     out.write(response.audio_content)
     print('Audio content written to file "output.mp3"')
+
+"""

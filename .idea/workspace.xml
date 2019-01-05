@@ -1,7 +1,411 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8234985-0e9d-4fa2-a3e2-8eff9012c3b2" name="Default Changelist" comment="" />
+    <list default="true" id="a8234985-0e9d-4fa2-a3e2-8eff9012c3b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/GoogleCloudSpeech.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleCloudSpeech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextToSpeech.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F10_A010.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F11_A011.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F12_A012.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F13_A013.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F14_A014.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F15_A015.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F16_A016.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F17_A017.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F18_A018.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F19_A019.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F1_A01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F20_A020.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F21_A021.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F22_A022.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F2_A02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F3_A03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F4_A04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F5_A05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F6_A06.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F7_A07.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F8_A08.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM1_F9_A09.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F10_A032.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F11_A033.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F12_A034.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F13_A035.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F14_A036.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F15_A037.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F16_A038.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F17_A039.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F18_A040.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F19_A041.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F1_A023.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F20_A042.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F21_A043.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F22_A044.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F23_A045.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F24_A046.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F25_A047.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F26_A048.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F27_A049.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F28_A050.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F2_A024.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F3_A025.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F4_A026.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F5_A027.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F6_A028.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F7_A029.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F8_A030.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM2_F9_A031.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM3_F1_A051.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM3_F2_A052.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F10_A062.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F11_A063.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F12_A064.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F13_A065.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F14_A066.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F15_A067.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F16_A068.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F17_A069.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F18_A070.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F19_A071.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F1_A053.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F20_A072.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F21_A073.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F22_A074.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F23_A075.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F24_A076.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F25_A077.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F26_A078.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F27_A079.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F28_A080.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F29_A081.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F2_A054.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F30_A082.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F31_A083.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F32_A084.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F33_A085.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F34_A086.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F35_A087.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F36_A088.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F37_A089.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F38_A090.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F39_A091.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F3_A055.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F40_A092.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F41_A093.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F42_A094.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F43_A095.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F44_A096.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F45_A097.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F46_A098.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F47_A099.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F48_A0100.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F4_A056.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F5_A057.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F6_A058.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F7_A059.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F8_A060.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Angry/SM4_F9_A061.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F10_H010.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F11_H011.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F12_H012.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F1_H01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F2_H02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F3_H03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F4_H04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F5_H05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F6_H06.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F7_H07.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F8_H08.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF1_F9_H09.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF2_F1_H013.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF2_F2_H014.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF3_F1_H015.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF3_F2_H016.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF4_F1_H017.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF4_F2_H018.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF4_F3_H019.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF4_F4_H020.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF5_F1_H021.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF5_F2_H022.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF5_F3_H023.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF5_F4_H024.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F10_H034.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F11_H035.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F12_H036.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F13_H037.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F14_H038.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F1_H025.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F2_H026.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F3_H027.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F4_H028.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F5_H029.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F6_H030.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F7_H031.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F8_H032.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF6_F9_H033.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF7_F1_H039.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF7_F2_H040.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF7_F3_H041.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF7_F4_H042.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF7_F5_H043.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF7_F6_H044.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF8_F1_H045.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SF8_F2_H046.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM17_F1_H047.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM17_F2_H048.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM18_F1_H049.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM18_F2_H050.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM19_F1_H051.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM19_F2_H052.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM3_F1_H053.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM3_F2_H054.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F1_H055.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F2_H056.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F3_H057.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F4_H058.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F5_H059.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F6_H060.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F7_H061.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM5_F8_H062.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F10_H072.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F1_H063.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F2_H064.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F3_H065.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F4_H066.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F5_H067.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F6_H068.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F7_H069.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F8_H070.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM6_F9_H071.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F10_H082.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F11_H083.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F12_H084.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F13_H085.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F14_H086.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F15_H087.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F16_H088.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F17_H089.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F18_H090.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F19_H091.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F1_H073.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F20_H092.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F21_H093.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F22_H094.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F23_H095.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F24_H096.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F25_H097.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F26_H098.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F27_H099.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F28_H0100.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F2_H074.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F3_H075.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F4_H076.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F5_H077.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F6_H078.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F7_H079.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F8_H080.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Happy/SM7_F9_H081.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SF9_F1_N01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SF9_F2_N02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SF9_F3_N03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SF9_F4_N04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F10_N014.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F1_N05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F2_N06.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F3_N07.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F4_N08.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F5_N09.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F6_N010.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F7_N011.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F8_N012.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM20_F9_N013.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM21_F1_N015.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM21_F2_N016.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM21_F3_N017.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM21_F4_N018.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM22_F1_N019.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM22_F2_N020.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F1_N021.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F2_N022.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F3_N023.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F4_N024.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F5_N025.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F6_N026.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F7_N027.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM3_F8_N028.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F10_N038.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F11_N039.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F12_N040.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F13_N041.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F14_N042.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F15_N043.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F16_N044.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F17_N045.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F18_N046.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F19_N047.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F1_N029.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F20_N048.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F21_N049.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F22_N050.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F23_N051.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F24_N052.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F25_N053.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F26_N054.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F27_N055.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F28_N056.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F29_N057.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F2_N030.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F30_N058.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F31_N059.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F32_N060.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F33_N061.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F34_N062.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F35_N063.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F36_N064.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F37_N065.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F38_N066.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F39_N067.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F3_N031.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F40_N068.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F41_N069.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F42_N070.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F43_N071.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F44_N072.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F45_N073.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F46_N074.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F47_N075.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F48_N076.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F49_N077.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F4_N032.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F50_N078.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F51_N079.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F52_N080.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F53_N081.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F54_N082.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F55_N083.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F56_N084.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F57_N085.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F58_N086.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F59_N087.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F5_N033.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F60_N088.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F61_N089.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F62_N090.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F63_N091.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F64_N092.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F65_N093.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F66_N094.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F67_N095.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F68_N096.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F69_N097.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F6_N034.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F70_N098.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F71_N099.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F72_N0100.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F7_N035.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F8_N036.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Neutral/SM5_F9_N037.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SF10_F1_S01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SF10_F2_S02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SF11_F1_S03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SF11_F2_S04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SF11_F3_S05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SF11_F4_S06.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM23_F1_S07.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM23_F2_S08.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM23_F3_S09.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM23_F4_S010.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM23_F5_S011.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM23_F6_S012.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F10_S022.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F11_S023.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F12_S024.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F13_S025.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F14_S026.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F15_S027.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F16_S028.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F17_S029.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F18_S030.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F19_S031.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F1_S013.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F20_S032.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F21_S033.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F22_S034.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F23_S035.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F24_S036.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F25_S037.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F26_S038.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F27_S039.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F28_S040.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F29_S041.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F2_S014.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F30_S042.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F31_S043.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F32_S044.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F33_S045.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F34_S046.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F35_S047.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F36_S048.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F37_S049.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F38_S050.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F3_S015.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F4_S016.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F5_S017.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F6_S018.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F7_S019.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F8_S020.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM24_F9_S021.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F10_S060.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F11_S061.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F12_S062.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F13_S063.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F14_S064.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F15_S065.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F16_S066.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F17_S067.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F18_S068.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F19_S069.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F1_S051.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F20_S070.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F21_S071.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F22_S072.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F23_S073.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F24_S074.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F25_S075.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F26_S076.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F27_S077.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F28_S078.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F29_S079.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F2_S052.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F30_S080.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F31_S081.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F32_S082.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F33_S083.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F34_S084.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F35_S085.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F36_S086.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F37_S087.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F38_S088.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F39_S089.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F3_S053.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F40_S090.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F4_S054.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F5_S055.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F6_S056.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F7_S057.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F8_S058.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM25_F9_S059.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM26_F1_S091.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM26_F2_S092.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM27_F1_S093.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM27_F2_S094.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM27_F3_S095.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM27_F4_S096.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM6_F1_S097.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM6_F2_S098.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM6_F3_S099.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Urdu-Styles DataSet/Sad/SM6_F4_S0100.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wav2Urdu.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +413,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Urdu_Speech_to_Text_Google_Cloud$TextToSpeech.coverage" NAME="TextToSpeech Coverage Results" MODIFIED="1546666399639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Urdu_Speech_to_Text_Google_Cloud$GoogleCloudSpeech.coverage" NAME="GoogleCloudSpeech Coverage Results" MODIFIED="1546666060020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Urdu_Speech_to_Text_Google_Cloud$TextToSpeech.coverage" NAME="TextToSpeech Coverage Results" MODIFIED="1546683951736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Urdu_Speech_to_Text_Google_Cloud$GoogleCloudSpeech.coverage" NAME="GoogleCloudSpeech Coverage Results" MODIFIED="1546685519544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="542322886">
@@ -36,39 +440,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1398" />
+          <entry key="py" value="1519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1398" />
+          <entry key="Python" value="1519" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoogleCloudSpeech.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="146">
+              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
               <folding>
-                <marker date="1546629044683" expanded="true" signature="839:1502" ph="..." />
-                <marker date="1546629044683" expanded="true" signature="1533:1534" ph="..." />
+                <element signature="e#7#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextToSpeech.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
-              <folding>
-                <element signature="e#155#164#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -94,6 +494,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Data</find>
+      <find>dataset</find>
+      <find>Urdu-S</find>
+      <find>Happy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,8 +505,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GoogleCloudSpeech.py" />
         <option value="$PROJECT_DIR$/TextToSpeech.py" />
+        <option value="$PROJECT_DIR$/GoogleCloudSpeech.py" />
       </list>
     </option>
   </component>
@@ -156,7 +559,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TextToSpeech">
+  <component name="RunManager" selected="Python.GoogleCloudSpeech">
     <configuration name="GoogleCloudSpeech" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Urdu-Speech-to-Text-Google-Cloud" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,8 +610,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TextToSpeech" />
         <item itemvalue="Python.GoogleCloudSpeech" />
+        <item itemvalue="Python.TextToSpeech" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +643,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4822064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37544483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30427048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,8 +666,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/GoogleCloudSpeech.py</url>
-          <line>66</line>
+          <line>65</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleCloudSpeech.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -350,23 +758,19 @@
     <entry file="file://$PROJECT_DIR$/wav2Urdu.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleCloudSpeech.py">
+    <entry file="file://$PROJECT_DIR$/TextToSpeech.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <marker date="1546629044683" expanded="true" signature="839:1502" ph="..." />
-            <marker date="1546629044683" expanded="true" signature="1533:1534" ph="..." />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextToSpeech.py">
+    <entry file="file://$PROJECT_DIR$/GoogleCloudSpeech.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
+        <state relative-caret-position="146">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
           <folding>
-            <element signature="e#155#164#0" expanded="true" />
+            <element signature="e#7#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
