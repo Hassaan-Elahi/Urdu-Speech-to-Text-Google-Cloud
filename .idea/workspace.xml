@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8234985-0e9d-4fa2-a3e2-8eff9012c3b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TextToSpeech.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav2Urdu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wav2Urdu.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a8234985-0e9d-4fa2-a3e2-8eff9012c3b2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +226,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
