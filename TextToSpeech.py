@@ -6,20 +6,23 @@ Note: ssml must be well-formed according to:
 import os
 from google.cloud import texttospeech
 
+
+
+#To Do
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials.json"
+
+
 # Instantiates a client
 client = texttospeech.TextToSpeechClient()
 
-#To Do
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credT2S.json"
-
 # Set the text input to be synthesized
-synthesis_input = texttospeech.types.SynthesisInput(text="میں نے کچھ حصہ الگ بجٹ پر بھی رکھا ہے")
+synthesis_input = texttospeech.types.SynthesisInput(text="We tried this, but failed miserably.")
 
 # Build the voice request, select the language code ("en-US") and the ssml
 # voice gender ("neutral")
 voice = texttospeech.types.VoiceSelectionParams(
-    language_code='ur-PK',
-    ssml_gender=texttospeech.enums.SsmlVoiceGender.NEUTRAL)
+    language_code='en-US',
+    ssml_gender=texttospeech.enums.SsmlVoiceGender.FEMALE)
 
 # Select the type of audio file you want returned
 audio_config = texttospeech.types.AudioConfig(
